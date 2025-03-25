@@ -21,6 +21,25 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Project: Mini-CRM (Companies and Employees Management)
+
+This project is a Mini-CRM built using Laravel, featuring an admin panel to manage companies and their employees.
+
+**Key Features Implemented:**
+
+* **Basic Laravel Auth:** Administrator login functionality.
+* **Database Seeding:** Initial admin user creation (admin@admin.com, password: "password").
+* **CRUD Functionality:** Create, Read, Update, and Delete operations for Companies and Employees.
+* **Companies Table:** Name (required), email, logo (min 100x100), website.
+* **Employees Table:** First name (required), last name (required), Company (foreign key), email, phone.
+* **Database Migrations:** Schema creation for Companies and Employees.
+* **Logo Storage:** Company logos stored in `storage/app/public` and accessible from public.
+* **Resource Controllers:** Use of Laravel's resource controllers with default methods.
+* **Request Class Validation:** Data validation using Laravel's Request classes.
+* **Pagination:** 10 entries per page for Companies/Employees lists.
+* **Starter Kit Auth:** Laravel's starter kit for authentication with registration disabled.
+* **Database Factories:** Populating database using Laravel factories.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
@@ -35,19 +54,19 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+-   **[Vehikl](https://vehikl.com/)**
+-   **[Tighten Co.](https://tighten.co)**
+-   **[WebReinvent](https://webreinvent.com/)**
+-   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+-   **[64 Robots](https://64robots.com)**
+-   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+-   **[Cyber-Duck](https://cyber-duck.co.uk)**
+-   **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+-   **[Jump24](https://jump24.co.uk)**
+-   **[Redberry](https://redberry.international/laravel/)**
+-   **[Active Logic](https://activelogic.com)**
+-   **[byte5](https://byte5.de)**
+-   **[OP.GG](https://op.gg)**
 
 ## Contributing
 
