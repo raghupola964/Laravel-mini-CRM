@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  button {
+    background-color: white;
+    color: grey;
+    border: 0.5px solid grey;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 10%;
+  }
